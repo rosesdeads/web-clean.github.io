@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoEnCasaSalamanca</title>
+    <link rel="shortcut icon" href="img/imagen2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desing.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="logo-empresa">
+        </div>
+        <div class="nav">
+            <div class="menu-hamburguesa">
+            <nav>
+                    <input type="checkbox" id="menu-toggle" />
+                    <label for="menu-toggle" class="menu-icon">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </label>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="servicios.html">Empresa de servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="https://wa.me/34657126616">WhatsApp <!--<img src="img/emogis-redes/wasap_low.png" alt="wasap_low">--></a></li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+    <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const menu = document.querySelector('.menu');
+
+    menuToggle.addEventListener('click', () => {
+    menu.classList.toggle('show');
+});
+      </script>
+    <main>
+        <h2>TodoEnCasaSalamanca</h2>
+        <h1>Empresa de limipieza en Salamanca y Benidorm</h1>
+        <p>
+            "Descubre los espacios impecables con nuestro servicio de limipieza general. ¡Tu comodidad nuestra comodidad!"
+        </p>
+        <div class="main-boton">
+          <a href="https://wa.me/34657126616">WhatsApp</a>  
+        </div>
+    </main>
+    <div class="container">
+        <div class="emo-index">
+            <article>
+                <img src="img/index/dedo-pulgar.png" alt="dedo-pulgar"><br>
+                <b>+200</b>
+                <p>Clientes satisfechos</p>
+            </article>
+            <article>
+                <img src="img/index/manos-unidas.png" alt="manos-unidas"><br>
+                <b>+10</b>
+                <p>Trabajadores</p>
+            </article>
+            <article>
+                <img src="img/index/productos.png" alt="productos"><br>
+                <b>+20</b>
+                <p>Productos de limpieza</p>
+            </article>
+            <article>
+                <img src="img/index/aspiradora.png" alt="aspiradora"><br>
+                <b>+10</b>
+                <p>Equipos avanzados</p>
+            </article>
+        </div>
+        <hr>
+        <div class="nosotros-index">
+            <div class="fotos">
+                <img src="img/index/imageNosotrosA.png" alt="imagen-uno" id="imagen-uno">
+                <img src="img/index/images.png" alt="imagen-dos" id="imagen-dos">
+                <img src="img/index/limpieza.png" alt="imagen-tres" id="imagen-tres">
+                
+            </div>
+            <div class="texto">
+                <h4>TodoEnCasaSalamanca</h4>
+                <h2>Sobre Nosotros</h2>
+                <p>
+                    Somos tu equipo de limpieza comprometido con la limpieza impecable y el cuidado 
+                    de tu hogar, tu negocio y oficinas. Nuestro objetivo es brindarte un servicio 
+                    cercano y efectivo para mantener tus espacios impecables y llenos de armonía.
+                    
+                </p>
+                <div class="articles-images">
+                <article>
+                    <img src="img/index/casa.png" alt="casa">
+                    <b>Satisfacción garantizada</b>
+                </article>
+                <article>
+                    <img src="img/index/trapo.png" alt="trapo">
+                    <b>Equipo formado y entrenado</b>
+                </article>
+                <article>
+                    <img src="img/index/reloj.png" alt="reloj">
+                    <b>Flexibilidad de horario</b>
+                </article>
+                <article>
+                    <img src="img/index/recogedor.png" alt="recogedor">
+                    <b>Limpieza garantizada</b>
+                </article>
+                </div>
+                <div class="boton">
+                     <a href="servicios.html">Aprende más</a>
+                </div>
+                   
+            </div>
+        </div>
+            <div class="servicios-index">
+                <div class="texto">
+                    <h4>Nuestros servicios</h4>
+                    <h2>Qué te ofrecemos</h2>
+                    <p>Te ofrecemos una solución integral de limpieza para todos tus espacios: desde 
+                        hogares acogedores hasta negocios y oficinas impecables. <br>
+                        Y no solo eso, estamos aquí para brindarle a tus seres queridos la atención 
+                        y el apoyo que se merecen en esta etapa especial de sus vidad. <br>
+                        Haz brillar tus espacios con nuestra experiencia en limpieza y cuidado de 
+                        ancianos. Contrata nuestros servicios hoy mismo.
+                    </p>
+                    <div class="boton">
+                         <a href="servicios.html">Más información</a>
+                    </div>
+                    <video controls>
+                        <source src="video/videoPiso.mp4" type="video/mp4">
+                      </video>
+                </div>
+                <div class="articles-index">
+                    <article>
+                        <img src="img/index/limpieza-bares.png" alt="limpieza-bares"><br>
+                        <b>Limpieza de bares</b>
+                        <p>Transformamos tu bar es un espacio reluciente y acogedor</p>
+                    </article>
+                    <article>
+                        <img src="img/index/limpieza-mostradores.png" alt="limpieza-mostradores"><br>
+                        <b>Limpieza de mostrador</b>
+                        <p>Cuidamos cada detalle para mantener tus mostradores impecables</p>
+                    </article>
+                    <article>
+                        <img src="img/index/atencion-mayores.png" alt="atencion-mayores"><br>
+                        <b>Atención de mayores</b>
+                        <p>Nuestro equipo dedicado ofrece un cuidado cercano y cariñoso, tu para 
+                            ser más querido</p>
+                    </article>
+                    <article>
+                        <img src="img/index/limpieza-industrial.png" alt="limpieza-industrial"><br>
+                        <b>Lipieza industrial</b>
+                        <p>
+                            Potenciamos la eficiencia y seguridad de tu negocio, mejorando tu entorno
+                            laboral
+                        </p>
+                    </article>
+                </div> 
+            </div>
+                <div class="proceso-index">
+                    <h4>Nuestro proceso</h4>
+                    <h2>¿Cómo funciona?</h2>
+                    <div class="article">
+                    <article>
+                        <img src="img/index/plan-limpieza.png" alt="plan-limpieza"><br>
+                        <b>1. Plan de limpieza</b>
+                        <p>Contactenos por nuestro WhatsApp o móvil</p>
+                    </article>
+                    <article>
+                        <img src="img/index/gestion-trabajo.png" alt="gestion-trabajo"><br>
+                        <b>2. Gestión del trabajo</b>
+                        <p>Indiquenos que labores desea que se realice</p>
+                    </article>
+                    <article>
+                        <img src="img/index/dirigimos-ti.png" alt="dirigimos-ti"><br>
+                        <b>3. Nos dirijimos a ti</b>
+                        <p>Concretando el horario nos vamos a ti</p>
+                    </article>
+                    </div>
+                </div>
+                <div class="contratar">
+                    <h4>Presupuesto gratuito</h4>
+                    <h2>Desea contratar nuestros servicios</h2>
+                    <p>Haz brillar tus espacios con nuestra experiencia en limpieza 
+                        y cuidado de ancianos. Contrata nuestros servicios hoy mismo
+                    </p>
+                    <div class="boton">
+                     <a href="https://wa.me/34657126616">WhatsApp</a>     
+                    </div>
+                </div>
+                <div class="testimonios">
+                    <h4>Testimonios</h4>
+                    <h2>¿Qué dicen nuestros clientes de nosotros?</h2>
+                    <iframe src="https://embedsocial.com/api/pro_hashtag/8a0f7f45f0a1d1d109373889e5e1e81ee9406c92" width="100%" height="500px" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+                </div>
+                <div class="planes-index">
+                    <h4>Panes Mensuales</h4>
+                    <h2>Nuestro plan de precios</h2>
+                    <div class="planes-index-article">
+                        <article>
+                        <img src="img/index/limpieza-domicilio.png" alt="limpieza-domicilio"><br>
+                        <b>Limpieza a domicilio</b>
+                        <p>
+                            Limpieza general <br>
+                            Limpieza a fondo <br>
+                            Mantenimiento de limpieza de hogar
+                        </p>
+                        <a href="contacto.html">Consultar</a>
+                    </article>
+                    <article>
+                        <img src="img/index/limpieza-empresas.png" alt="limpieza-empresas"><br>
+                        <b>Limpieza de Empresas</b>
+                        <p>
+                            Mantenimiento <br>
+                            MAntenimiento de cristales <br>
+                            Personalizado
+                        </p>
+                        <a href="contacto.html">Consultar</a>
+                    </article>
+                    <article>
+                        <img src="img/index/cuidado-personas.png" alt="cuidado-personas"><br>
+                        <b>Ciudado de Personas</b>
+                        <p>
+                            Limpieza higiene personal <br>
+                            Cuidado de mayores interno y externo <br>
+                            Cuidado de personas mayores / horas
+                        </p>
+                        <a href="contacto.html">Consultar</a>
+                    </article>  
+                    </div>
+                </div>
+                <div class="contacto">
+                <div class="formulario">
+                    <fieldset>
+                    <h4>Limpieza en Salamanca</h4>
+                    <h2>Contacto</h2>
+                        <form action="todoencasasalamanca.php" method="get">
+                        <label for="name">Nombre</label><br>
+                        <input type="text" name="name" id="name"><br>
+                        <label for="correo">Correo electrónico</label><br>
+                        <input type="text" name="correo" id="correo"><br>
+                        <label for="tel">Tlfno</label><br>
+                        <input type="tel" name="tel" id="tel"><br>
+                        <label for="mensaje">Mensaje</label><br>
+                        <textarea name="mensaje" id="mensaje"></textarea><br>
+                        <input type="submit" value="Enviar">
+                    </form>  
+                    </fieldset>
+                </div>
+                <div class="apartados index">
+                    <details>
+                        <summary>¿Qué servicios de limpieza ofrecen en Salamanca?</summary>
+                        <p>
+                            Ofrecemos una amplia gama de servicios de limpieza en Salamanca, 
+                            que incluyen limpieza general de hogares, limpieza de negocios y 
+                            oficinas, limpieza industrial y cuidado de adulto mayres.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>¿Cuál es la experiencia y capacitación del equipo de limpieza?</summary>
+                        <p>
+                            Ofrecemos una amplia gama de servicios de limpieza en Salamanca, 
+                            que incluyen limpieza general de hogares, limpieza de negocios y 
+                            oficinas, limpieza industrial y cuidado de adulto mayres.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>¿Cómo solicitar un presupuesto personalizado para mi negocio u hogar?</summary>
+                        <p>
+                            Ofrecemos una amplia gama de servicios de limpieza en Salamanca, 
+                            que incluyen limpieza general de hogares, limpieza de negocios y 
+                            oficinas, limpieza industrial y cuidado de adulto mayres.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>¿Pueden adaptar los horarios de limpieza según las necesidades de mi empresa?</summary>
+                        <p>
+                            Ofrecemos una amplia gama de servicios de limpieza en Salamanca, 
+                            que incluyen limpieza general de hogares, limpieza de negocios y 
+                            oficinas, limpieza industrial y cuidado de adulto mayres.
+                        </p>
+                    </details>
+                </div>
+                </div>
+    </div>
+    <footer>
+        <div class="footer1">
+            <article>
+                <img src="img/logo.png" alt="logo-footer">
+                <p>
+                    Tu aliado y cuidado <br>
+                    Expertos en espacios impecables <br>
+                    Clientes satisfechos
+                </p>
+            </article>
+            <article>
+                <ul>
+                    <li><b>Quicks Links</b></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="servicios.html">Proyectos</a></li>
+                </ul>
+            </article>
+            <article>
+                <ul>
+                    <li><b>Servicios</b></li>
+                    <li><a href="servicios.html">Limpieza de hogar</a></li>
+                    <li><a href="servicios.html">Limpieza de oficina</a></li>
+                    <li><a href="servicios.html">Limpieza de bares</a></li>
+                    <li><a href="servicios.html">Limpieza de mostrador</a></li>
+                    <li><a href="servicios.html">Limpieza de cocina</a></li>
+                </ul>
+            </article>
+            <article>
+                <ul>
+                    <li><b>Correo:</b></li>
+                    <li><a href="mailto:Salamancatodoencasa@gmail.com">salamancatodoencasa@gmail.com</a></li>
+                    <li><b>Teléfono:</b></li>
+                    <li><a href="tel: 698910718">+34 657 12 66 16</a></li>
+                    <li><b>Dirección</b></li>
+                    <li><a href=https://www.google.com/maps/place/Todo+en+casa+salamanca+%26+Benidorm+limpieza+general/@40.9760333,-5.6499029,17z/data=!3m1!4b1!4m6!3m5!1s0xd3f27fd7272aaf3:0x67414b301917a0f!8m2!3d40.9760333!4d-5.6499029!16s%2Fg%2F11w1tw82bm?entry=ttu&g_ep=EgoyMDI0MDgyMy4wIKXMDSoASAFQAw%3D%3D>Av.de Alfonso VI 2, 37005 Salamanca</a></li>
+                </ul>
+            </article>
+        </div>
+        <hr>
+        <div class="footer-emoticono">
+            <a href="https://wa.me/34657126616"><img src="img/emogis-redes/file.png" alt=""></a>
+        </div>
+        <div class="footer2">
+            <p>
+                Copyright &copy; 2024 Salamanca Todo En Casa - Todos los derechos reservados
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

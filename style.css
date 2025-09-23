@@ -1,0 +1,649 @@
+*{
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 40%;
+}
+.logo img{
+    width: 60%;
+    height: auto;
+}
+
+.nav{
+    width: 60%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav li{
+    padding: 3%;
+} 
+
+nav a{
+text-decoration: none;
+color: black;
+} 
+
+nav a:hover{
+    color: orange;
+    } 
+
+.menu-hamburguesa input[type="checkbox"] {
+    display: none;
+    }
+      
+/*Pag1-------------------------------------------------------------*/
+main{
+    background: url(img/index/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    text-align: justify;
+    padding: 1%;
+    color: white;
+}
+
+.main-boton{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+main a{
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    border-radius: 5px;
+    box-shadow:1px 1px 15px rgb(134, 224, 98) ;
+    background-color: rgb(0, 255, 55);
+    } 
+
+/*Emo-index-------------------------------------------------------------------------------------------------------------*/
+.emo-index{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+.emo-index article{
+    margin: 2%;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 5px 5px 15px black;
+    width: 20%;
+}
+
+.emo-index article b{
+    font-size: 3rem;
+}
+
+.emo-index article img{
+    height: 20vh;
+    border-radius: 5px;
+    padding: 5%;
+}
+
+/*nosotros-index---------------------------------------------------------------------------------------------------------------*/
+
+.nosotros-index{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin-bottom: 1%;
+}
+.nosotros-index .fotos{
+    width: 50%;
+    padding: 1%;
+    height: auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.nosotros-index .fotos img{
+    border-radius: 5%;
+    width: 30%;
+    margin: 1%;
+}
+
+
+.nosotros-index .texto{
+    width: 50%;
+    padding: 2%;
+    height: auto;
+}
+
+.nosotros-index .texto .articles-images img{
+    height: 300%;
+    width: 30%;
+}
+
+.nosotros-index .texto .articles-images{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%; 
+    padding-top: 1%;
+}
+
+
+.nosotros-index article{
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+   
+}
+
+.nosotros-index .texto .boton{
+    width: 80%;
+    height: auto;
+    margin-top: 3%;
+}
+
+.nosotros-index .texto .boton a{
+    text-decoration: none;
+    color: white;
+    padding: 1.5%;
+    border-radius: 5px;
+    box-shadow:1px 1px 15px rgb(134, 224, 98) ;
+    background-color: rgb(0, 255, 55);
+}
+
+/*servicios-index------------------------------------------------------*/
+
+.servicios-index{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 50rem;
+    padding: 1%;
+    margin-top: 2%;
+}
+
+.servicios-index .texto{
+    width: 40%;
+    height: auto;
+}
+
+.servicios-index .texto .boton{
+    width: 100%;
+    margin-top: 4%;
+}
+
+.servicios-index .texto a{
+text-decoration: none;
+color: white;
+padding: 2%;
+box-shadow:1px 1px 15px rgb(134, 224, 98) ;
+background-color: rgb(0, 255, 55);
+border-radius: 5px;
+}
+
+.articles-index{
+    padding: 1%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.articles-index article{
+    width: 46%;
+    height: 35%;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5%;
+    padding: 2%;
+    margin: 1%;
+}
+
+.articles-index img{
+    width: 40%;
+    height: auto;
+    margin: 2%;
+}
+
+
+video{
+    width: 100%;
+    height: 40vh;
+    margin-top: 5%;
+}
+
+/*proceso-index--------------------------------------------------------------------------------------------*/
+
+.proceso-index{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.proceso-index .article{
+ display: flex;
+ justify-content: space-around;
+ width: 100%;
+ align-items: flex-end
+}
+
+.proceso-index .article img{
+height:20vh;
+}
+/*contratar-------------------------------------------------------------------------------------------------------*/
+
+.contratar{
+    width: 100%;
+    height: auto;
+    background-image: url(img/index/presupuesto-gratuito.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.7;
+    color: white;
+    margin-top: 2%;
+
+}
+
+.contratar h2, h4{
+    color: black;
+}
+
+.contratar p{
+    opacity: 0.7;
+    background-color: black;
+    padding: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.contratar .boton{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.contratar .boton a{
+    padding: 1%;
+    box-shadow:1px 1px 15px rgb(134, 224, 98) ;
+    background-color: rgb(0, 255, 55);
+    text-decoration: none;
+    color: white;
+    border-radius: 5%;
+}
+
+/*testimonios----------------------------------------------------------------------------------------------------------------*/
+
+.testimonios{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.testimonios iframe{
+    width: 80%;
+}
+
+/*planes-index------------------------------------------------------------------------------------------------------------------*/
+
+.planes-index {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.planes-index-article{
+    display: flex;
+    justify-content: space-around;
+}
+
+.planes-index-article article{
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
+    width: 25%;
+    height: auto;
+    padding: 1%;
+}
+
+.planes-index-article article:hover{
+    box-shadow: 5px 5px 15px orange;
+}
+
+.planes-index-article a{
+    text-decoration: none;
+    color: white;
+    box-shadow:1px 1px 15px rgb(134, 224, 98) ;
+    background-color: rgb(0, 255, 55);
+    margin: 4%;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.planes-index-article img{
+    height: 20vh;
+}
+
+/*contacto-------------------------------------------------------------------------------------------------------------------------*/
+
+.contacto{
+    display: flex;
+    justify-content:space-around ;
+    align-items: baseline;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+}
+
+.contacto div{
+    width: 30%;
+    height: auto;
+}
+
+.contacto form input{
+    width: 100%;
+    height: 5vh;
+}
+
+.contacto form textarea{
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 1%;
+}
+
+.contacto fieldset{
+    border-radius: 5px;
+}
+
+.contacto form input[type="submit"]{
+    box-shadow:1px 1px 15px rgb(134, 224, 98) ;
+    background-color: rgb(0, 255, 55);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+details{
+    border-radius:5px;
+    box-shadow: 5px gray;
+    border: 1px solid gray;
+    padding: 4%;
+    margin: 2%;
+}
+
+details summary{
+    color: rgb(235, 159, 18);
+    font-weight: bold;
+}
+
+
+details[open]>summary{
+    background-color: rgb(9, 170, 9);
+    color: white;
+}
+
+details[open]{
+    background-color: rgb(9, 170, 9);
+    color: white;
+}
+
+/*Pag2-----------------------------------------------------------------------------------------------------*/
+
+.main2{
+    width: 100%;
+    height: 25vh;
+    background-image: url(img/nosotros/main2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*porque-nosotros-----------------------------------------------------------------------------------------*/
+
+.porque-nosotros{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-image: url(img/index/presupuesto-gratuito.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+/*nosotros-articles------------------------------------------------------------------------------------------*/
+
+.nosotros-articles{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nosotros-articles article{
+    background-color: white;
+    border-radius: 5%;
+    margin: 1%;
+    padding: 2%;
+    width: 20%;
+}
+
+.nosotros-articles article img{
+    height: 15vh;
+}
+
+/*equipo-nosotros-------------------------------------------------------------------------------------*/
+
+.equipo-nosotros{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    padding: 2%;
+}
+
+.equipo-nosotros .texto{
+    width: 45%;
+}
+
+.equipo-nosotros .foto{
+    width: 30%; 
+    margin: 0 auto;
+    text-align: end;
+}
+
+.equipo-nosotros .foto img{
+    margin: 5%;
+    width: 80%;
+}
+
+.equipo-nosotros .slider1, .slider2, .slider3{
+    width: 100%;
+    height: 2vh;
+    margin: 0 auto;
+    background-color: orange;
+    border-radius: 5px;
+    margin-bottom: 7%;
+}
+
+/*proyectos-nosotros------------------------------------------------------------------------------------------*/
+
+.proyectos-nosotros{
+    width: 100%;
+    height: auto;text-align: center;
+}
+
+.proyectos-nosotros .imagenes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.proyectos-nosotros img{
+    width: 20%;
+    height: auto;
+}
+
+/*pag3--------------------------------------------------------------------------------------------------*/
+.main3{
+    background-image: url(img/servicios/main3.png);
+    width: 100%;
+    height: 25vh;
+    opacity: 0.7;
+    color: black;
+}
+
+
+.limp-servicios{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: flex-end
+}
+
+.limp-servicios article{
+    width: 10%;
+    height: auto;
+    margin-top: 2%;
+}
+
+.limp-servicios article img{
+    width: 100%;
+    height: auto;
+}
+
+/*Pag4------------------------------------------------------------------------------------------------------*/
+
+.main4{
+    width: 100%;
+    height: 25vh;
+    background-image: url(img/contacto/main4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2%;
+}
+
+.redes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    text-align: center;
+}
+
+.redes article{
+    width: 20%;
+}
+
+.redes img{
+    width: 30%;
+    height: auto;
+}
+
+.limpieza-contacto{
+    width: 100%;
+    height: auto;
+}
+
+.limpieza-contacto h2{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.limpieza-contacto .limpieza-div{
+    width: 100%;
+    height: auto; 
+    display: flex;
+    flex-direction: row;
+}
+
+.limpieza-contacto .limpieza-div div{
+    width: 45%;
+    height: auto;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+/*footer-----------------------------------------------------------------------------------------------------*/
+
+
+footer .footer1{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+footer .footer1 article{
+    width: 20%;
+    height: auto;
+    margin: 3%;
+}
+
+footer .footer1 img{
+    width: 50%;
+    height: auto;
+}
+
+footer .footer1 article ul{
+    list-style: none;
+}
+
+footer .footer1 article a{
+    text-decoration: none;
+    color: black;
+}
+
+footer .footer2{
+    text-align: center;
+}
+
+footer .footer-emoticono{
+    position: fixed;
+    font-size: 50px;
+    transform: scale(0.4);
+    transform-origin: bottom right;
+    z-index: 1000;
+    bottom: 10px;
+    right: 10px;
+}
+
